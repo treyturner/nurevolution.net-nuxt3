@@ -12,5 +12,81 @@
   "coverArt": {
     "full": "2011_09_14-EazyT-Star_Whores_Live_at_the_Pink_Palace.png"
   },
-  "tracklist": []
+  "tracklist": [
+    {
+      "artist": "Juno Reactor",
+      "title": "Landing",
+      "startTime": "0:00"
+    },
+    {
+      "artist": "Deru",
+      "title": "Confused",
+      "startTime": "3:41"
+    },
+    {
+      "artist": "Hypha",
+      "title": "Puddle Melter",
+      "startTime": "7:23"
+    },
+    {
+      "artist": "Hypha",
+      "title": "Casaverde",
+      "startTime": "11:04"
+    },
+    {
+      "artist": "Hypha",
+      "title": "Phixations",
+      "startTime": "14:46"
+    },
+    {
+      "artist": "Electromass",
+      "title": "Dripping",
+      "startTime": "18:28"
+    },
+    {
+      "artist": "Thriftworks",
+      "title": "Port Au Mento",
+      "startTime": "22:09"
+    },
+    {
+      "artist": "Knight Riderz",
+      "title": "12th Dimension",
+      "startTime": "25:51"
+    },
+    {
+      "artist": "Blunt Instrument",
+      "title": "Battle Toad",
+      "startTime": "29:32"
+    },
+    {
+      "artist": "Heyoka",
+      "title": "Glibidy Glob",
+      "startTime": "33:14"
+    },
+    {
+      "artist": "Heyoka",
+      "title": "Jade",
+      "startTime": "36:56"
+    },
+    {
+      "artist": "Opiuo",
+      "title": "King Prawn",
+      "startTime": "40:37"
+    },
+    {
+      "artist": "Love & Light",
+      "title": "Structural Liberation",
+      "startTime": "44:19"
+    },
+    {
+      "artist": "Opiuo",
+      "title": "Petrichor",
+      "startTime": "48:00"
+    },
+    {
+      "artist": "Thriftworks",
+      "title": "Eisenblaster",
+      "startTime": "51:42"
+    }
+  ]
 }
