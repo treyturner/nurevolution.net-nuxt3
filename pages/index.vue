@@ -10,7 +10,7 @@
           <NuxtLink :to="`/podcast/${podcast.slug}`">
             <img :src="`/img/podcasts/${podcast.coverArt.full}`" />
             <div class="bg-neutral-200 text-neutral-800 pl-1 pb-0.5">
-              <div class="text-base">{{ podcast.title }}</div>
+              <div class="text-base truncate">{{ podcast.title }}</div>
               <div class="flex text-xs justify-between">
                 <div>by {{ podcast.mixedBy }}</div>
                 <div class="pr-1">{{ formatDate(podcast.releaseDate) }}</div>
