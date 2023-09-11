@@ -21,7 +21,7 @@
         <p>title: {{ podcast.title }}</p>
         <p>mixed by: {{ podcast.mixedBy }}</p>
         <p>release date: {{ formatDate(podcast.releaseDate).toLowerCase() }}</p>
-        <ol v-if="podcast.tracklist.length > 0" class="pl-6">
+        <ol v-if="podcast.tracklist" class="pl-6">
           <li
             v-for="track in podcast.tracklist"
             :key="track.title"
