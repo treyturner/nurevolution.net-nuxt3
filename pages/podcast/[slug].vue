@@ -1,7 +1,9 @@
 <template>
   <div>
-    <p>another dope</p>
-    <h1>podcast</h1>
+    <div>
+      <p class="pb-0 text-sm">another dope</p>
+      <h1 class="pb-4 pt-0 text-3xl">podcast</h1>
+    </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
       <div>
@@ -10,13 +12,15 @@
           width="480"
           :src="`//www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2F${podcast.mixcloudSlug}%2F`"
           frameborder="0"
-          class=""
+          class="pb-4"
         ></iframe>
 
-        <p>{{ podcast.description }}</p>
+        <div>
+          <p>{{ podcast.description }}</p>
+        </div>
       </div>
 
-      <div class="w-80">
+      <div class="w-fit">
         <header>podcast details</header>
         <p>title: {{ podcast.title }}</p>
         <p>mixed by: {{ podcast.mixedBy }}</p>
