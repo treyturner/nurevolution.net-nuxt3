@@ -1,0 +1,83 @@
+{
+  "slug": "trey_turner-dancefloor_oriented",
+  "title": "Dancefloor Oriented",
+  "mixedBy": "Trey Turner",
+  "djs": ["Trey Turner"],
+  "releaseDate": "2010-10-27T12:00:00+00:00",
+  "description": "Trey returns to the uptempo arena with an hour long driving and often dark breakbeat mix.",
+  "duration": "1:01:54",
+  "filename": "2010_10_27-trey_turner-dancefloor_oriented-v0.mp3",
+  "filesize": 117345588,
+  "mixcloudSlug": "nurevolution%2Ftrey-turner-dancefloor-oriented",
+  "spotifyPlaylist": "7BwxLdNGGDQ52nqBwzxiBd",
+  "coverArt": {
+    "full": "2010_10_27-Trey_Turner-Dancefloor_Oriented.jpg"
+  },
+  "tracklist": [
+    {
+      "artist": "Chris Carter",
+      "title": "Panorama",
+      "startTime": "0:00"
+    },
+    {
+      "artist": "Roxiller",
+      "title": "Creature Feature",
+      "startTime": "6:17"
+    },
+    {
+      "artist": "KiloWatts",
+      "title": "Teknopera Part 1",
+      "startTime": "10:46"
+    },
+    {
+      "artist": "Mad tek",
+      "title": "Dread",
+      "startTime": "15:40"
+    },
+    {
+      "artist": "Roxiller",
+      "title": "Fear 2",
+      "startTime": "18:34"
+    },
+    {
+      "artist": "Jhz",
+      "title": "Chips",
+      "startTime": "23:45"
+    },
+    {
+      "artist": "Son of the Electric Ghost",
+      "title": "Concept of Nature",
+      "startTime": "28:31"
+    },
+    {
+      "artist": "The Disciple Grin",
+      "title": "Call The Vulture",
+      "startTime": "32:48"
+    },
+    {
+      "artist": "Funk Monster",
+      "title": "Brainscan",
+      "startTime": "35:34"
+    },
+    {
+      "artist": "AMB",
+      "title": "Romeo (Raster's Rework)",
+      "startTime": "39:35"
+    },
+    {
+      "artist": "Dirty South vs. Contax",
+      "title": "WMD",
+      "startTime": "46:50"
+    },
+    {
+      "artist": "White Papoo",
+      "title": "Carnivore",
+      "startTime": "51:19"
+    },
+    {
+      "artist": "Stormtrooperz",
+      "title": "Substrate",
+      "startTime": "55:45"
+    }
+  ]
+}
