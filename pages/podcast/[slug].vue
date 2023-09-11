@@ -8,7 +8,7 @@
         <iframe
           height="480"
           width="480"
-          :src="`//www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2Fnurevolution%2F${podcast.mixcloudSlug}%2F`"
+          :src="`//www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2F${podcast.mixcloudSlug}%2F`"
           frameborder="0"
           class=""
         ></iframe>
