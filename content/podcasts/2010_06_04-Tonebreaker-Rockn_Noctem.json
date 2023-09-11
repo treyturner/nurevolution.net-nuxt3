@@ -1,0 +1,68 @@
+{
+  "slug": "tonebreaker-rockn_noctem",
+  "title": "Rock'n Noctem",
+  "mixedBy": "Tonebreaker",
+  "djs": ["Tonebreaker/DJ^3"],
+  "releaseDate": "2010-06-04T12:00:00+00:00",
+  "description": "A high-energy breakbeat set from our good friend intended for Saturday night of Flipside 2010.",
+  "duration": "1:00:56",
+  "filename": "2010_06_04-Tonebreaker-Rock%27n_Noctem-v0.mp3",
+  "filesize": 117730918,
+  "mixcloudSlug": "Tonebreaker%2Ftonebreaker-rockn-noctem",
+  "spotifyPlaylist": null,
+  "coverArt": {
+    "full": "2010_06_04-Tonebreaker-Rock'n_Noctem.jpg"
+  },
+  "tracklist": [
+    {
+      "artist": "Elite Force",
+      "title": "Law of Life",
+      "startTime": ""
+    },
+    {
+      "artist": "Andy Page",
+      "title": "Olivia Newton Bomb",
+      "startTime": ""
+    },
+    {
+      "artist": "Future Funk Squad",
+      "title": "Blow ft. Mojo (Kid Digital)",
+      "startTime": ""
+    },
+    {
+      "artist": "Young MC",
+      "title": "Know How (Stanton Warriors)",
+      "startTime": ""
+    },
+    {
+      "artist": "Future Funk Squad",
+      "title": "Zones (4Kuba)",
+      "startTime": ""
+    },
+    {
+      "artist": "Headflux",
+      "title": "Mindcell",
+      "startTime": ""
+    },
+    {
+      "artist": "LuQas vs. Mesmer",
+      "title": "Replicant Cubes",
+      "startTime": ""
+    },
+    {
+      "artist": "Elite Force",
+      "title": "Maps",
+      "startTime": ""
+    },
+    {
+      "artist": "Retroid",
+      "title": "Supernatural (Karton)",
+      "startTime": ""
+    },
+    {
+      "artist": "Justin Timberlake",
+      "title": "Sexyback (Faskil & James Warren)",
+      "startTime": ""
+    }
+  ]
+}
