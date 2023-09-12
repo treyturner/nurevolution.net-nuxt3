@@ -24,7 +24,11 @@
           </NuxtLink>
         </div>
       </li>
-      <InfiniteLoading :slots="props.scrollOpts" @infinite="load" />
+      <InfiniteLoading
+        :distance="props.distance"
+        :slots="props.scrollSlots"
+        @infinite="load"
+      />
     </ul>
   </div>
 </template>
@@ -58,10 +62,16 @@ interface Podcast extends ParsedContent {
 }
 
 const props = defineProps({
-  scrollOpts: {
+  scrollSlots: {
     type: Object,
     default() {
       return { complete: ' ', error: 'Error loading podcasts :(' };
+    },
+  },
+  distance: {
+    type: Number,
+    default() {
+      return 100;
     },
   },
 });
@@ -70,7 +80,11 @@ const podcasts = ref<Podcast[]>([]);
 const pageSize = 3;
 let page = 1;
 
-const load = async ($state: any) => {
+const load = async ($state: {
+  complete: () => void;
+  loaded: () => void;
+  error: () => void;
+}) => {
   try {
     const json = await queryContent<Podcast>('/podcasts')
       .sort({ releaseDate: -1 })
