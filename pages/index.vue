@@ -1,7 +1,8 @@
 <template>
   <div>
+    <h1 class="pb-1">podcast</h1>
     <ul
-      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 col-auto pl-5"
+      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4"
     >
       <li v-for="podcast in podcasts" :key="podcast.slug">
         <div
@@ -18,26 +19,56 @@
             </div>
           </NuxtLink>
         </div>
-
-        <div class="text-xs float-right pr-1.5"></div>
       </li>
-      <InfiniteLoading @infinite="load" />
+      <InfiniteLoading :slots="props.scrollOpts" @infinite="load" />
     </ul>
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue';
 import InfiniteLoading from 'v3-infinite-loading';
 import 'v3-infinite-loading/lib/style.css';
+import type { ParsedContent } from '@nuxt/content/dist/runtime/types';
 
-const podcasts = ref([]);
+interface Podcast extends ParsedContent {
+  slug: string;
+  title: string;
+  mixedBy: string;
+  djs: string[];
+  releaseDate: string;
+  description: string;
+  duration: string;
+  filename: string;
+  filesize: number;
+  mixcloudSlug: string;
+  spotifyPlaylist?: string;
+  coverArt: {
+    full: string;
+  };
+  tracklist?: {
+    artist: string;
+    title: string;
+    startTime?: string;
+  }[];
+}
+
+const props = defineProps({
+  scrollOpts: {
+    type: Object,
+    default() {
+      return { complete: ' ', error: 'Error loading podcasts :(' };
+    },
+  },
+});
+
+const podcasts = ref<Podcast[]>([]);
 const pageSize = 3;
 let page = 1;
 
-const load = async ($state) => {
+const load = async ($state: any) => {
   try {
-    const json = await queryContent('/podcasts')
+    const json = await queryContent<Podcast>('/podcasts')
       .sort({ releaseDate: -1 })
       .limit(pageSize)
       .skip(pageSize * (page - 1))
@@ -54,13 +85,4 @@ const load = async ($state) => {
 };
 </script>
 
-<style scoped>
-h2 {
-  margin-bottom: 20px;
-  margin-left: 20px;
-  font-size: 36px;
-}
-p {
-  margin: 20px;
-}
-</style>
+<style scoped></style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>about</h2>
+    <h1>about</h1>
     <p>
       nurevolution studios is a small prosumer home studio in austin, texas
       that's run by trey turner, a hobbyist dj and audio engineer (that's me).
@@ -42,7 +42,7 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup lang="ts"></script>
 
 <style scoped>
 h2 {
@@ -50,6 +50,7 @@ h2 {
   margin-left: 20px;
   font-size: 36px;
 }
+
 p {
   margin: 20px;
 }

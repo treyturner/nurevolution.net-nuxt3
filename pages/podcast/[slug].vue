@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if="podcast">
     <div>
       <p class="pb-0 text-sm">another dope</p>
       <h1 class="pb-4 pt-0 text-3xl">podcast</h1>
@@ -21,10 +21,9 @@
       </div>
 
       <div class="w-fit">
-        <header>podcast details</header>
-        <p>title: {{ podcast.title }}</p>
-        <p>mixed by: {{ podcast.mixedBy }}</p>
-        <p>release date: {{ formatDate(podcast.releaseDate).toLowerCase() }}</p>
+        <header>{{ podcast.title }}</header>
+        <p>Mixed by {{ podcast.mixedBy }}</p>
+        <p>Released {{ formatDate(podcast.releaseDate) }}</p>
         <ol v-if="podcast.tracklist" class="pl-6">
           <li
             v-for="track in podcast.tracklist"
@@ -39,11 +38,22 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const { slug } = useRoute().params;
 const { data: podcast } = await useAsyncData('podcast', () => {
   return queryContent('/podcasts').where({ slug }).findOne();
 });
+
+if (podcast.value == null) {
+  throw createError({
+    statusCode: 404,
+    statusMessage: 'Podcast not found',
+  });
+}
 </script>
 
-<style scoped></style>
+<style scoped>
+header {
+  @apply bg-neutral-400;
+}
+</style>
