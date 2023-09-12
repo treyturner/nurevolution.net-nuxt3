@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="pb-1">podcast</h1>
+    <h1>releases</h1>
     <ul
       class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4"
     >
@@ -10,11 +10,15 @@
         >
           <NuxtLink :to="`/podcast/${podcast.slug}`">
             <img :src="`/img/podcasts/${podcast.coverArt.full}`" />
-            <div class="bg-neutral-200 text-neutral-800 pl-1 pb-0.5">
-              <div class="text-base truncate">{{ podcast.title }}</div>
-              <div class="flex text-xs justify-between">
-                <div>by {{ podcast.mixedBy }}</div>
-                <div class="pr-1">{{ formatDate(podcast.releaseDate) }}</div>
+            <div class="bg-neutral-200 pl-1 pb-0.5">
+              <div class="text-base truncate text-neutral-800">
+                {{ podcast.title }}
+              </div>
+              <div class="flex text-xs justify-between text-neutral-800">
+                <div class="text-neutral-800">by {{ podcast.mixedBy }}</div>
+                <div class="pr-1 text-neutral-800">
+                  {{ formatDate(podcast.releaseDate) }}
+                </div>
               </div>
             </div>
           </NuxtLink>

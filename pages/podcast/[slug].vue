@@ -1,8 +1,8 @@
 <template>
   <div v-if="podcast">
     <div>
-      <p class="pb-0 text-sm">another dope</p>
-      <h1 class="pb-4 pt-0 text-3xl">podcast</h1>
+      <span class="pb-0 text-sm">another dope</span>
+      <h1 class="pb-4 pt-0">podcast</h1>
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
@@ -22,8 +22,12 @@
 
       <div class="w-fit">
         <header>{{ podcast.title }}</header>
-        <p>Mixed by {{ podcast.mixedBy }}</p>
-        <p>Released {{ formatDate(podcast.releaseDate) }}</p>
+
+        <div class="container">
+          <div>Mixed by {{ podcast.mixedBy }}</div>
+          <div>Released {{ formatDate(podcast.releaseDate) }}</div>
+        </div>
+
         <ol v-if="podcast.tracklist" class="pl-6">
           <li
             v-for="track in podcast.tracklist"
@@ -55,5 +59,6 @@ if (podcast.value == null) {
 <style scoped>
 header {
   @apply bg-neutral-400;
+  @apply text-neutral-900;
 }
 </style>

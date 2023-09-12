@@ -8,6 +8,7 @@ body {
 
 h1 {
   @apply text-2xl;
+  @apply pb-3;
 }
 
 h2 {
@@ -17,14 +18,20 @@ h3 {
   @apply text-lg;
 }
 
+div,
 h1,
 h2,
 h3,
 p,
-li {
+li,
+span {
   @apply text-neutral-400;
 }
 
 a {
   @apply text-yellow-200;
+}
+
+p {
+  @apply pb-6;
 }

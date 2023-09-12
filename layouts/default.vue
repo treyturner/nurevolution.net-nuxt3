@@ -6,8 +6,9 @@
           >nurevolution studios</NuxtLink
         >
         <ul class="nav-items flex gap-4">
-          <li><NuxtLink to="/">podcast</NuxtLink></li>
+          <li><NuxtLink to="/">podcasts</NuxtLink></li>
           <li><NuxtLink to="/about">about</NuxtLink></li>
+          <li><NuxtLink to="/podcast.xml">rss</NuxtLink></li>
         </ul>
       </nav>
     </header>
