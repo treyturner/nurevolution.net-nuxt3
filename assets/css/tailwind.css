@@ -2,27 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-header {
-  @apply bg-neutral-400;
-}
-
 body {
   @apply bg-neutral-700;
 }
 
-li > a.router-link-active {
-  @apply text-orange-400;
-}
-
 h1 {
   @apply text-2xl;
-  @apply pb-4;
 }
 
-a,
+h2 {
+  @apply text-xl;
+}
+h3 {
+  @apply text-lg;
+}
+
 h1,
 h2,
+h3,
 p,
 li {
   @apply text-neutral-400;
+}
+
+a {
+  @apply text-yellow-200;
 }
