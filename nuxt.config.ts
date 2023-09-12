@@ -5,4 +5,7 @@ export default defineNuxtConfig({
     shim: false,
   },
   modules: ['@nuxtjs/tailwindcss', '@nuxt/content'],
+  devServer: {
+    host: '0.0.0.0',
+  },
 });
