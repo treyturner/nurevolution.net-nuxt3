@@ -21,14 +21,37 @@
 
         <div class="text-xs float-right pr-1.5"></div>
       </li>
+      <InfiniteLoading @infinite="load" />
     </ul>
   </div>
 </template>
 
 <script setup>
-const { data: podcasts } = await useAsyncData('podcasts', () => {
-  return queryContent('/podcasts').sort({ releaseDate: -1 }).find();
-});
+import { ref } from 'vue';
+import InfiniteLoading from 'v3-infinite-loading';
+import 'v3-infinite-loading/lib/style.css';
+
+const podcasts = ref([]);
+const pageSize = 3;
+let page = 1;
+
+const load = async ($state) => {
+  try {
+    const json = await queryContent('/podcasts')
+      .sort({ releaseDate: -1 })
+      .limit(pageSize)
+      .skip(pageSize * (page - 1))
+      .find();
+    if (json.length < pageSize) $state.complete();
+    else {
+      podcasts.value.push(...json);
+      $state.loaded();
+    }
+    page++;
+  } catch (error) {
+    $state.error();
+  }
+};
 </script>
 
 <style scoped>
@@ -41,4 +64,3 @@ p {
   margin: 20px;
 }
 </style>
-1
