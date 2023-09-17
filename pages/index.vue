@@ -77,7 +77,7 @@ const props = defineProps({
 });
 
 const podcasts = ref<Podcast[]>([]);
-const pageSize = 3;
+const pageSize = 6;
 let page = 1;
 
 const load = async ($state: {
@@ -89,14 +89,10 @@ const load = async ($state: {
     const json = await queryContent<Podcast>('/podcasts')
       .sort({ releaseDate: -1 })
       .limit(pageSize)
-      .skip(pageSize * (page - 1))
+      .skip(pageSize * (page++ - 1))
       .find();
-    if (json.length < pageSize) $state.complete();
-    else {
-      podcasts.value.push(...json);
-      $state.loaded();
-    }
-    page++;
+    podcasts.value.push(...json);
+    json.length < pageSize ? $state.complete() : $state.loaded();
   } catch (error) {
     $state.error();
   }
