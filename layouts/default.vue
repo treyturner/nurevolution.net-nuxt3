@@ -8,7 +8,7 @@
         <ul class="nav-items flex gap-4">
           <li><NuxtLink to="/">podcast</NuxtLink></li>
           <li><NuxtLink to="/about">about</NuxtLink></li>
-          <li><NuxtLink to="/podcast.xml">rss</NuxtLink></li>
+          <li><NuxtLink to="/feed/podcast">rss</NuxtLink></li>
         </ul>
       </nav>
     </header>
