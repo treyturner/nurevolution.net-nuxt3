@@ -1,0 +1,88 @@
+{
+  "slug": "trey_turner-g3_mix_session",
+  "title": "g3 Mix Session",
+  "mixedBy": "Trey Turner",
+  "djs": ["Trey Turner"],
+  "releaseDate": "2002-03-01T12:00:00+00:00",
+  "description": "Funky and nuskool breakbeat",
+  "duration": "1:13:16",
+  "filename": "2002_03_01-trey_turner-g3_mix_session_01-v0.mp3",
+  "filesize": 140169960,
+  "mixcloudSlug": "nurevolution%2Ftrey-turner-g3-mix-session",
+  "spotifyPlaylist": null,
+  "coverArt": {
+    "full": "2002_03_01-Trey_Turner-g3_Mix_Session.jpg"
+  },
+  "tracklist": [
+    {
+      "artist": "Banco de Gaia",
+      "title": "Drunk as a Monk (Rabbit in the Moon)",
+      "startTime": "0:00"
+    },
+    {
+      "artist": "Bushwacka!",
+      "title": "Monster",
+      "startTime": "6:03"
+    },
+    {
+      "artist": "Peacemaker",
+      "title": "Crisis",
+      "startTime": "11:51"
+    },
+    {
+      "artist": "Rennie Pilgrem & BLIM",
+      "title": "Eskimo (Yellow Snow)",
+      "startTime": "16:16"
+    },
+    {
+      "artist": "Scissorkicks",
+      "title": "Livin' for Kicks",
+      "startTime": "21:34"
+    },
+    {
+      "artist": "Stirfry",
+      "title": "Breakin' in the Streets",
+      "startTime": "26:09"
+    },
+    {
+      "artist": "Chris Carter",
+      "title": "Noncompos",
+      "startTime": "31:53"
+    },
+    {
+      "artist": "SubHQ",
+      "title": "The Abyss",
+      "startTime": "37:16"
+    },
+    {
+      "artist": "Player One",
+      "title": "Into the darkness",
+      "startTime": "42:15"
+    },
+    {
+      "artist": "Atomic Hooligan",
+      "title": "Club Shaker",
+      "startTime": "46:45"
+    },
+    {
+      "artist": "Aquasky vs. Masterblaster",
+      "title": "777",
+      "startTime": "51:25"
+    },
+    {
+      "artist": "Meat Katie",
+      "title": "Rotten dot com",
+      "startTime": "57:57"
+    },
+    {
+      "artist": "Spider Mite",
+      "title": "Three Guesser",
+      "startTime": "1:01:48"
+    },
+    {
+      "artist": "Mechanoise Sound System",
+      "title": "Psychotic Break",
+      "startTime": "1:07:02"
+    }
+  ]
+}

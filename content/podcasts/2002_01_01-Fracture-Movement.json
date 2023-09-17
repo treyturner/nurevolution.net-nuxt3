@@ -1,0 +1,73 @@
+{
+  "slug": "fracture-movement",
+  "title": "Movement",
+  "mixedBy": "Fracture",
+  "djs": ["Trey Turner", "Cody Haynes"],
+  "releaseDate": "2002-01-01T12:00:00+00:00",
+  "description": "Progressive breaks",
+  "duration": "1:19:55",
+  "filename": "2002_01_01-fracture-movement-v0.mp3",
+  "filesize": 136614893,
+  "mixcloudSlug": "nurevolution%2Ffracture-movement",
+  "spotifyPlaylist": null,
+  "coverArt": {
+    "full": "2002_01_01-Fracture-Movement.jpg"
+  },
+  "tracklist": [
+    {
+      "artist": "Way Out West",
+      "title": "Earth (Waveform)",
+      "startTime": "0:00"
+    },
+    {
+      "artist": "Miro",
+      "title": "Paradise (Farmatronic)",
+      "startTime": "9:48"
+    },
+    {
+      "artist": "Amiel",
+      "title": "The Chase (Hi-Fi Bugs)",
+      "startTime": "16:24"
+    },
+    {
+      "artist": "Gus Gus",
+      "title": "Purple",
+      "startTime": "23:16"
+    },
+    {
+      "artist": "Beber & Tamra",
+      "title": "You Wonder (Starecase)",
+      "startTime": "32:06"
+    },
+    {
+      "artist": "Jan Johnston",
+      "title": "As The Cracks Appear (Humate)",
+      "startTime": "39:30"
+    },
+    {
+      "artist": "Clanger",
+      "title": "Seadog (Way Out West)",
+      "startTime": "45:34"
+    },
+    {
+      "artist": "Austin Leeds",
+      "title": "Nutmeg (The Light vs. Proper Filthy Naughty)",
+      "startTime": "51:43"
+    },
+    {
+      "artist": "Freefall ft. Jan Johnston",
+      "title": "Skydive (Hi-Fi Bugs)",
+      "startTime": "57:36"
+    },
+    {
+      "artist": "Hi-Fi Bugs",
+      "title": "Lydian and the Dinosaur",
+      "startTime": "1:04:44"
+    },
+    {
+      "artist": "Private Taste",
+      "title": "First (Ashtrax)",
+      "startTime": "1:13:34"
+    }
+  ]
+}

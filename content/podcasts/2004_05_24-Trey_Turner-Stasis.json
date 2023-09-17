@@ -1,0 +1,73 @@
+{
+  "slug": "trey_turner-stasis",
+  "title": "Stasis",
+  "mixedBy": "Trey Turner",
+  "djs": ["Trey Turner"],
+  "releaseDate": "2004-05-24T12:00:00+00:00",
+  "description": "Progressive and nuskool breaks",
+  "duration": "1:08:26",
+  "filename": "2004_05_24-trey_turner-stasis-v0.mp3",
+  "filesize": 120512693,
+  "mixcloudSlug": "nurevolution%2Ftrey-turner-stasis",
+  "spotifyPlaylist": "6oEJnvdPsFFTitYpKCyUd7",
+  "coverArt": {
+    "full": "2004_05_24-Trey_Turner-Stasis.jpg"
+  },
+  "tracklist": [
+    {
+      "artist": "2 Sinners",
+      "title": "Patterns",
+      "startTime": "0:00"
+    },
+    {
+      "artist": "Introspective",
+      "title": "Time Travel (Loes Lee)",
+      "startTime": "06:38"
+    },
+    {
+      "artist": "Brothers of Dub",
+      "title": "After Time (Ek)",
+      "startTime": "12:49"
+    },
+    {
+      "artist": "Puretone",
+      "title": "Stuck in a Groove (Koma & Bones)",
+      "startTime": "19:19"
+    },
+    {
+      "artist": "Stisch & Dan F",
+      "title": "Heads",
+      "startTime": "26:39"
+    },
+    {
+      "artist": "Webcore",
+      "title": "Garlick",
+      "startTime": "32:36"
+    },
+    {
+      "artist": "Dan F & DJ Hyper",
+      "title": "Triad",
+      "startTime": "37:07"
+    },
+    {
+      "artist": "General MIDI",
+      "title": "U Will Be Under",
+      "startTime": "42:27"
+    },
+    {
+      "artist": "Unkle",
+      "title": "Eye for an Eye (Force Mass Motion vs. Dylan Rhymes)",
+      "startTime": "48:11"
+    },
+    {
+      "artist": "Hybrid",
+      "title": "Out of the Dark",
+      "startTime": "53:37"
+    },
+    {
+      "artist": "Infusion",
+      "title": "Legacy (Junkie XL)",
+      "startTime": "1:00:01"
+    }
+  ]
+}

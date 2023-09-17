@@ -1,0 +1,78 @@
+{
+  "slug": "fracture_and_dj_cubed-slipstream",
+  "title": "Slipstream",
+  "mixedBy": "Fracture & DJ^3",
+  "djs": ["Trey Turner", "Cody Haynes", "Tonebreaker/DJ^3"],
+  "releaseDate": "2002-08-15T12:00:00+00:00",
+  "description": "Progressive breaks mixed by Trey, JJ Stonebraker and Mitch Burton",
+  "duration": "1:19:08",
+  "filename": "2002_08_15-fracture_and_dj_cubed-slipstream-v0.mp3",
+  "filesize": 134966954,
+  "mixcloudSlug": "nurevolution%2Ffracture-dj3-slipstream",
+  "spotifyPlaylist": "1k7SOFiWTCvLU5nU7sYiIj",
+  "coverArt": {
+    "full": "2002_08_15-Fracture_and_DJ^3-Slipstream.jpg"
+  },
+  "tracklist": [
+    {
+      "artist": "Bahamut",
+      "title": "Fragadelic (Deepsky)",
+      "startTime": "0:00"
+    },
+    {
+      "artist": "Frontside",
+      "title": "Dämmerung",
+      "startTime": "06:26"
+    },
+    {
+      "artist": "Hybrid",
+      "title": "Kid 2000",
+      "startTime": "12:48"
+    },
+    {
+      "artist": "Tiesto",
+      "title": "Urban Train (Way Out West)",
+      "startTime": "20:55"
+    },
+    {
+      "artist": "Layo & Bushwacka",
+      "title": "Let The Good Times Roll",
+      "startTime": "27:33"
+    },
+    {
+      "artist": "Dan F",
+      "title": "Bluebox",
+      "startTime": "34:47"
+    },
+    {
+      "artist": "Salt Tank",
+      "title": "Angel's Landing (The Light)",
+      "startTime": "37:11"
+    },
+    {
+      "artist": "Max Graham",
+      "title": "Falling Together",
+      "startTime": "42:39"
+    },
+    {
+      "artist": "Sasha",
+      "title": "Rabbitweed",
+      "startTime": "51:45"
+    },
+    {
+      "artist": "9 Nickel",
+      "title": "Rhythm Is Everything",
+      "startTime": "1:00:24"
+    },
+    {
+      "artist": "Deepsky",
+      "title": "View from a Stairway",
+      "startTime": "1:06:24"
+    },
+    {
+      "artist": "Space Manoeuvres",
+      "title": "Stage One (Total Separation)",
+      "startTime": "1:12:51"
+    }
+  ]
+}

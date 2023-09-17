@@ -1,0 +1,83 @@
+{
+  "slug": "fracture-broken",
+  "title": "Broken",
+  "mixedBy": "Fracture",
+  "djs": ["Trey Turner", "Cody Haynes"],
+  "releaseDate": "2001-08-01T12:00:00+00:00",
+  "description": "The pair's first breakbeat mix. Captures sounds from percussive tribal breaks to the clean futuristic sounds of Überzone and the thick tech grind of Rhythm Division.",
+  "duration": "1:10:29",
+  "filename": "2001_08_01-fracture-broken-v0.mp3",
+  "filesize": 129448564,
+  "mixcloudSlug": "nurevolution%2Ffracture-broken",
+  "spotifyPlaylist": null,
+  "coverArt": {
+    "full": "2001_08_01-Fracture-Broken.jpg"
+  },
+  "tracklist": [
+    {
+      "artist": "The Chemical Brothers",
+      "title": "It Began in Afrika",
+      "startTime": "0:00"
+    },
+    {
+      "artist": "Lee Combs & Drum Attic Twins",
+      "title": "Tribal Tension",
+      "startTime": "8:15"
+    },
+    {
+      "artist": "Rennie Pilgrem & Dub Species",
+      "title": "The Sermon",
+      "startTime": "12:44"
+    },
+    {
+      "artist": "Deep Cover",
+      "title": "Beatstalker (General Midi)",
+      "startTime": "17:23"
+    },
+    {
+      "artist": "Bedrock",
+      "title": "Weekend Warrior (Terminalhead)",
+      "startTime": "22:48"
+    },
+    {
+      "artist": "La Liga",
+      "title": "Black Russian (Koma & Bones)",
+      "startTime": "27:13"
+    },
+    {
+      "artist": "Aquasky vs. Master Blaster",
+      "title": "Sure Shot",
+      "startTime": "33:25"
+    },
+    {
+      "artist": "Überzone",
+      "title": "Rhythm Device",
+      "startTime": "38:23"
+    },
+    {
+      "artist": "Rennie Pilgrem",
+      "title": "Eskimo",
+      "startTime": "43:34"
+    },
+    {
+      "artist": "Sabotage",
+      "title": "I Saw the Future",
+      "startTime": "48:36"
+    },
+    {
+      "artist": "JDS",
+      "title": "Nine Ways (Plump DJs)",
+      "startTime": "54:26"
+    },
+    {
+      "artist": "Rhythm Division",
+      "title": "Skin",
+      "startTime": "59:42"
+    },
+    {
+      "artist": "Hybrid",
+      "title": "Snyper (High Velocity)",
+      "startTime": "1:03:57"
+    }
+  ]
+}

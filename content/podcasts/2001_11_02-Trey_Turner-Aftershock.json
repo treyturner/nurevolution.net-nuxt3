@@ -1,0 +1,78 @@
+{
+  "slug": "trey_turner-aftershock",
+  "title": "Aftershock",
+  "mixedBy": "Trey Turner",
+  "djs": ["Trey Turner"],
+  "releaseDate": "2001-11-02T12:00:00+00:00",
+  "description": "Progressive breaks",
+  "duration": "1:14:24",
+  "filename": "2001_11_02-trey_turner-aftershock-v0.mp3",
+  "filesize": 128762894,
+  "mixcloudSlug": "nurevolution%2Ftrey-turner-aftershock",
+  "spotifyPlaylist": null,
+  "coverArt": {
+    "full": "2001_11_02-Trey_Turner-Aftershock.jpg"
+  },
+  "tracklist": [
+    {
+      "artist": "Way Out West",
+      "title": "Sequoia",
+      "startTime": "0:00"
+    },
+    {
+      "artist": "Ashtrax",
+      "title": "Helsinki",
+      "startTime": "07:08"
+    },
+    {
+      "artist": "BT",
+      "title": "Running Down the Way Up",
+      "startTime": "14:26"
+    },
+    {
+      "artist": "SIGMA 7",
+      "title": "Against the Wall",
+      "startTime": "20:05"
+    },
+    {
+      "artist": "Pressure Drop",
+      "title": "Warrior Sound (Adam Freeland)",
+      "startTime": "26:04"
+    },
+    {
+      "artist": "Sonic Infusion",
+      "title": "Reformatted (General Midi)",
+      "startTime": "32:28"
+    },
+    {
+      "artist": "Musique vs. U2",
+      "title": "New Year's Dub (Hybrid)",
+      "startTime": "38:26"
+    },
+    {
+      "artist": "ASAP",
+      "title": "Firebird",
+      "startTime": "46:05"
+    },
+    {
+      "artist": "Tarentella",
+      "title": "Saturn (Quivver)",
+      "startTime": "52:28"
+    },
+    {
+      "artist": "Überzone",
+      "title": "Botz (Organik)",
+      "startTime": "57:52"
+    },
+    {
+      "artist": "SIGMA 7",
+      "title": "Exotic Punk",
+      "startTime": "1:04:11"
+    },
+    {
+      "artist": "Nubreed",
+      "title": "Mutist",
+      "startTime": "1:07:55"
+    }
+  ]
+}

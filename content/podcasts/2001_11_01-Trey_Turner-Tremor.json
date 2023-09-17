@@ -1,0 +1,73 @@
+{
+  "slug": "trey_turner-tremor",
+  "title": "Tremor",
+  "mixedBy": "Trey Turner",
+  "djs": ["Trey Turner"],
+  "releaseDate": "2001-11-01T12:00:00+00:00",
+  "description": "Uptempo breaks",
+  "duration": "1:08:40",
+  "filename": "2001_11_01-trey_turner-tremor-v0.mp3",
+  "filesize": 121716216,
+  "mixcloudSlug": "nurevolution%2Ftrey-turner-tremor",
+  "spotifyPlaylist": null,
+  "coverArt": {
+    "full": "2001_11_01-Trey_Turner-Tremor.jpg"
+  },
+  "tracklist": [
+    {
+      "artist": "Kriminal",
+      "title": "Loud and Proud (Hybrid)",
+      "startTime": "0:00"
+    },
+    {
+      "artist": "Hybrid",
+      "title": "Burnin'",
+      "startTime": "6:58"
+    },
+    {
+      "artist": "Accadia",
+      "title": "Into the Dawn (Ashtrax)",
+      "startTime": "12:06"
+    },
+    {
+      "artist": "Radiohead",
+      "title": "Everything in its Right Place (Hybrid)",
+      "startTime": "21:04"
+    },
+    {
+      "artist": "John Creamer & Stephane K",
+      "title": "I Love You (Hybrid)",
+      "startTime": "29:11"
+    },
+    {
+      "artist": "Überzone",
+      "title": "Bounce (Max Graham)",
+      "startTime": "35:51"
+    },
+    {
+      "artist": "Leuroj",
+      "title": "Isokora (Bushwacka)",
+      "startTime": "41:22"
+    },
+    {
+      "artist": "Koma & Bones",
+      "title": "High Rollin' (Rennie Pilgrem)",
+      "startTime": "47:57"
+    },
+    {
+      "artist": "Koma & Bones",
+      "title": "Morpheus",
+      "startTime": "52:10"
+    },
+    {
+      "artist": "Afrika Bombataa & Überzone",
+      "title": "2 Kool 4 Skool (Rennie Pilgrem)",
+      "startTime": "57:55"
+    },
+    {
+      "artist": "Chris Carter",
+      "title": "Moonshot",
+      "startTime": "1:02:13"
+    }
+  ]
+}
