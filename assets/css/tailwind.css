@@ -26,10 +26,11 @@ p,
 li,
 span {
   @apply text-neutral-400;
+  font-family: 'Raleway', serif;
 }
 
 a {
-  @apply text-yellow-200;
+  @apply text-yellow-400;
 }
 
 p {

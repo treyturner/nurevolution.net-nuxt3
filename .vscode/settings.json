@@ -5,5 +5,8 @@
   "editor.tabSize": 2,
   "files.associations": {
     "*.css": "tailwindcss"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
   }
 }

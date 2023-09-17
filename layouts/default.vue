@@ -6,7 +6,7 @@
           >nurevolution studios</NuxtLink
         >
         <ul class="nav-items flex gap-4">
-          <li><NuxtLink to="/">podcasts</NuxtLink></li>
+          <li><NuxtLink to="/">podcast</NuxtLink></li>
           <li><NuxtLink to="/about">about</NuxtLink></li>
           <li><NuxtLink to="/podcast.xml">rss</NuxtLink></li>
         </ul>
@@ -32,6 +32,6 @@
   @apply text-neutral-400;
 }
 .nav-items > li > a.router-link-active {
-  @apply text-orange-400;
+  @apply text-yellow-400;
 }
 </style>
