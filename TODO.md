@@ -1,9 +1,10 @@
+- [x] Add remaining podcasts
+- [ ] Implement previous/next on podcast detail page
 - [ ] Create RSS feed
 - [ ] Hook up Mixcloud Widget API
   - [ ] Highlight playing track
   - [ ] Jump to track on click
   - [ ] Jump forward 30s, jump back 15s
-- [ ] Implement previous/next on podcast detail page
 - [ ] Tracklist: Calculate and display track times
 - [ ] Replace Mixcloud with self-hosted media player
   - [ ] Auto-play next mix
